@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="complete_fragment_margin_top">64dp</dimen>
+    <dimen name="recycler_width">0dp</dimen>
+    <dimen name="row_margin_start">8dp</dimen>
+    <dimen name="small_margin_top">8dp</dimen>
+    <dimen name="large_margin_bottom">32dp</dimen>
+    <dimen name="view_bar_height">5dp</dimen>
+    <dimen name="view_bar_width">0dp</dimen>
+
+</resources>

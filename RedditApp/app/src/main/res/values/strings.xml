@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RedditApp</string>
+
+    <string name="ERROR_UNEXPECTED">Um erro inesperado ocorreu. Tente novamente mais tarde.</string>
+    <string name="ERROR_INTERNET_CONNECTION">Conexão à internet necessária para uso da applicação.</string>
+    <string name="OFFLINE_MODE">Modo Offline ativado</string>
+
+    <string name="name">Nome</string>
+    <string name="title">Título</string>
+    <string name="description">Descrição</string>
+    <string name="image">Imagem</string>
+    <string name="author">Autor</string>
+    <string name="score">Score</string>
+    <string name="comments">Comments</string>
+
+    <string name="author_complete_activity">Author: </string>
+    <string name="score_complete_activity">Score: </string>
+    <string name="comments_complete_activity">Number of comments: </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
