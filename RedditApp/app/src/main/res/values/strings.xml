@@ -13,11 +13,8 @@
     <string name="score">Score</string>
     <string name="comments">Comments</string>
 
-    <string name="author_complete_activity">Author: </string>
-    <string name="score_complete_activity">Score: </string>
-    <string name="comments_complete_activity">Number of comments: </string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="author_complete_activity">Author: %s</string>
+    <string name="score_complete_activity">Score: %d</string>
+    <string name="comments_complete_activity">Number of comments: %d</string>
 
 </resources>

@@ -31,19 +31,18 @@ class CompleteRedditFragment : Fragment() {
 
         // Load Args
         val reddit = args.reddit
-        if (reddit != null) {
-            loadDataFromMain(requireContext(), reddit)
-        }
+        loadDataFromMain(requireContext(), reddit)
 
         return binding.root
     }
 
     private fun loadDataFromMain(context: Context, reddit: RedditModel) {
-        binding.textTitle.text = reddit?.title
-        binding.textAuthor.text = getString(R.string.author_complete_activity) + " " + reddit!!.author
-        binding.textScore.text = getString(R.string.score_complete_activity) + " " + reddit!!.score
-        binding.textComments.text = getString(R.string.comments_complete_activity) + " " + reddit!!.numComments
-        val url = reddit!!.url
+        binding.textTitle.text = reddit.title
+        binding.textAuthor.text = getString(R.string.author_complete_activity, reddit.author)
+        binding.textScore.text = getString(R.string.score_complete_activity, reddit.score)
+        binding.textComments.text =
+            getString(R.string.comments_complete_activity, reddit.numComments)
+        val url = reddit.url
         ImageService.loadImage(context, url, binding.imageReddit)
     }
 }
