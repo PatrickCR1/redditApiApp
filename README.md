@@ -1,25 +1,20 @@
 # redditApiApp
 Repository of Reddit API Application
 
-Android Code Challenge
+The Top Reddits reader application shows a list of reddits to the user with the title and thumbnail on the first screen. If you click in any reddit, it navigates to a
+second screen where you found more information about the reddit, including title, image, author, score, and number of comments. The application uses connection to an
+API to obtain the list of reddits.
 
-The goal is to implement a basic Top Reddits reader. 
-You will have 3 days from the moment you receive the challenge to complete and submit the code. After you finish, you will need to share with us the link to your public repository (GitHub, GitLab, etc).
-You can use any third-party library and Kotlin/Java to code (although we prefer Kotlin).
-The repository should contain a Readme which explains what you have done and all the important information we should know about the reader you have implemented.
-We will also evaluate different software engineering aspects of your solution such as architecture, patterns and industry best practices.
-Required Features
-●	List Top Reddits with thumbnails.
-●	Pull to refresh Reddits.
-●	Load more Reddits when reaching the end of the list.
+The app have the MVVM architecture and uses Koin to do the dependency injection. The View is composed of a main activity that hosts two fragments, using navigation
+with safe args to pass the data between the fragments. The first fragment shows the list through a RecyclerView, using an Adapter and a ViewHolder. The user can pull
+up to refresh reddits. Also, if you reach the end of the list, it makes another call to the API to load more reddits for the user, having a load icon to show while the
+user waits the connection to be completed.
 
-You can add any extra feature, that would be highly appreciated. 
-Ideas for extra features
-●	Support for different device resolutions and orientation.
-●	Display Reddit details (only for Reddits with images in PNG and JPG format).
-●	Save Reddit image into photo library.
-●	Offline mode.
-●	Transitions.
+The ViewModel is responsible with the navigation, the click listeners and connecting to the repository to get the reddits that are shown. The repository connects to
+the API and to a local database. The API call uses Retrofit while the local database uses Room. The local database saves the last reddits you obtained from the API
+call to implement the Offline mode, showing the last reddits the user saw when he had internet.
 
-Reddit API
-https://www.reddit.com/top.json.
+The application has 3 models, on for the API, one for the local database, and one domain model, to be used during the application. The application has support for
+different device resolutions and orientation.
+
+This idea of the application comes from an Android Code Challenge and uses the Reddit API: https://www.reddit.com/top.json.
