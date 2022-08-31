@@ -18,9 +18,7 @@ import retrofit2.Retrofit
 
 val redditDatabaseModules = module {
     single<RedditDatabase> {
-        Room.databaseBuilder(get(), RedditDatabase::class.java, RedditConstants.BUILDER.DB_NAME)
-            .allowMainThreadQueries()
-            .build()
+        RedditDatabase.getDatabase(androidContext())
     }
     single<RedditDAO> { get<RedditDatabase>().redditDAO }
 }
