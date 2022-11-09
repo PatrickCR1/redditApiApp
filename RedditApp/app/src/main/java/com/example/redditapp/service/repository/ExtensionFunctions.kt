@@ -1,6 +1,6 @@
 package com.example.redditapp.service.repository
 
-import com.example.redditapp.service.model.APIModel.ApiRedditModel
+import com.example.redditapp.service.model.apimodel.ApiRedditModel
 import com.example.redditapp.service.model.appmodel.RedditModel
 import com.example.redditapp.service.model.databasemodel.RedditDatabaseModel
 

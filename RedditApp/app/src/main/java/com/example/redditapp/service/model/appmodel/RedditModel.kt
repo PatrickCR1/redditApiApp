@@ -17,5 +17,4 @@ data class RedditModel (
     var score: Int = 0,
     var numComments: Int = 0,
 
-
     ) : Parcelable

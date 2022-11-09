@@ -10,13 +10,13 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
 
-    // ViewModel & Binding
+    // Binding
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // ViewModel & Bindind
+        // Bindind
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }

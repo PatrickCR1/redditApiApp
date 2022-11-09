@@ -1,7 +1,5 @@
 package com.example.redditapp.di.modules
 
-import androidx.room.Room
-import com.example.redditapp.service.constants.RedditConstants
 import com.example.redditapp.service.repository.RedditRepository
 import com.example.redditapp.service.repository.local.RedditDAO
 import com.example.redditapp.service.repository.local.RedditDatabase

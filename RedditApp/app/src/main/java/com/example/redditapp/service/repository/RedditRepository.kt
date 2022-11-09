@@ -7,14 +7,10 @@ import android.os.Build
 import com.example.redditapp.R
 import com.example.redditapp.service.constants.RedditConstants
 import com.example.redditapp.service.listener.APIListener
-import com.example.redditapp.service.model.APIModel.ApiRedditModel
-import com.example.redditapp.service.model.APIModel.TopResponse
+import com.example.redditapp.service.model.apimodel.TopResponse
 import com.example.redditapp.service.model.appmodel.RedditModel
-import com.example.redditapp.service.model.databasemodel.RedditDatabaseModel
 import com.example.redditapp.service.repository.local.RedditDAO
-import com.example.redditapp.service.repository.local.RedditDatabase
 import com.example.redditapp.service.repository.remote.RedditService
-import com.example.redditapp.service.repository.remote.RetrofitClient
 import com.google.gson.Gson
 import retrofit2.Call
 import retrofit2.Callback

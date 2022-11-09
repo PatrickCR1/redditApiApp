@@ -1,6 +1,6 @@
 package com.example.redditapp.service.repository.remote
 
-import com.example.redditapp.service.model.APIModel.TopResponse
+import com.example.redditapp.service.model.apimodel.TopResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
