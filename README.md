@@ -1,6 +1,6 @@
 # <p align="center">Reddit API Application </p>
 
-# Reddit Api Application
+# Reddit Api
 ### The Top Reddits reader application shows a list of reddits to the user with the title and thumbnail on the first screen. If you click in any reddit, it navigates to a second screen where you found more information about the reddit, including title, image, author, score, and number of comments. The application uses connection to an API to obtain the list of reddits.
 
 # :hammer: Project Features
