@@ -48,5 +48,5 @@ After downloading the project, you can open it with Android Studio. To do that, 
 
 The Android Studio should execute some tasks from Gradle to configure the project, wait until it finishs. When it does, you can run the App.
 
-# Autor
+# Author
 [<img src="https://avatars.githubusercontent.com/u/86331226?v=4" width=115><br><sub>Patrick Contarini Richard</sub>](https://github.com/PatrickCR1) 
