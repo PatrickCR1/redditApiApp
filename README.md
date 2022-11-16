@@ -11,7 +11,7 @@
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://github.com/PatrickCR1/redditApiApp/blob/Main/Image/ProjectImage.png#vitrinedev)
 
 # :hammer: Project Features
 ### The app have the MVVM architecture and uses Koin to do the dependency injection. The View is composed of a main activity that hosts two fragments, using navigation with safe args to pass the data between the fragments. The first fragment shows the list through a RecyclerView, using an Adapter and a ViewHolder. The user can pull up to refresh reddits. Also, if you reach the end of the list, it makes another call to the API to load more reddits for the user, having a load icon to show while the user waits the connection to be completed.
