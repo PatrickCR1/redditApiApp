@@ -3,6 +3,16 @@
 # Reddit Api
 ### The Top Reddits reader application shows a list of reddits to the user with the title and thumbnail on the first screen. If you click in any reddit, it navigates to a second screen where you found more information about the reddit, including title, image, author, score, and number of comments. The application uses connection to an API to obtain the list of reddits.
 
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Name        | **Reddit Api Application**
+| :label: Technologies | Kotlin, Android Studio, Object-oriented programming, MVVM Architecture.
+| :rocket: URL         | https://github.com/PatrickCR1/redditApiApp
+
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+
 # :hammer: Project Features
 ### The app have the MVVM architecture and uses Koin to do the dependency injection. The View is composed of a main activity that hosts two fragments, using navigation with safe args to pass the data between the fragments. The first fragment shows the list through a RecyclerView, using an Adapter and a ViewHolder. The user can pull up to refresh reddits. Also, if you reach the end of the list, it makes another call to the API to load more reddits for the user, having a load icon to show while the user waits the connection to be completed.
 
