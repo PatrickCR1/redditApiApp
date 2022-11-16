@@ -5,8 +5,8 @@
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Name        | **Reddit Api Application**
-| :label: Technologies | Kotlin, Android Studio, Object-oriented programming, MVVM Architecture.
+| :sparkles: Nome        | **Reddit Api Application**
+| :label: Tecnologias | Kotlin, Android Studio, Object-oriented programming, MVVM Architecture.
 | :rocket: URL         | https://github.com/PatrickCR1/redditApiApp
 
 
