@@ -36,7 +36,7 @@
 ### `Picasso`: Load images from internet.
 ### `Room:`: Data persistence: store data.
 ### `Retrofit:`: Make calls to an API, to get data and information needed to run the application.
-### `Hearthstone Public API`: To get cards informations.
+### `Reddit Public API`: To get reddit informations.
 ### `Koin`: Dependency Injection
 ### `Recycler View`: Feature to make lists.
 
